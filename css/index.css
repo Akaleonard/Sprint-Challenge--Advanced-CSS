@@ -1,3 +1,6 @@
+.display-flex {
+  display: flex;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -273,6 +276,10 @@ footer {
   padding: 5px 20px;
   border: 1px solid #22283A;
   border-radius: 5px;
+}
+.home .walk .walk-text .btn button:hover {
+  color: black;
+  background: white;
 }
 .home .walk .walk-img {
   width: 46%;
