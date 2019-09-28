@@ -11,6 +11,9 @@
     p {
       padding:0 15px;
     }
+    img {
+      border-radius: 5px;
+    }
   
   }
 
@@ -58,6 +61,13 @@
       }
 
       .btn {
+        button {
+          .btn(@btn-bg-color, 20px);
+          color: white;
+          padding: 5px 20px;
+          border: 1px solid @btn-bg-color;
+          border-radius: 5px;
+        }
       }
     }
 
